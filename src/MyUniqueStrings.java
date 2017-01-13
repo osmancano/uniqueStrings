@@ -10,9 +10,9 @@ public class MyUniqueStrings {
         boolean flag=true;
         System.out.println("Unique Strings ....");
         for (int i=0; i<5; i++){
-            System.out.println("Enter the String No "+i+":");
+            System.out.println("Enter String No "+i+":");
             myStrings[i] = scanner.next();
-            for(int j= 0 ;j <= i; j++){
+            for(int j= 0 ;j < i; j++){
                 if(myStrings[j].equals(myStrings[i])){
                     flag = false;
                     break;
